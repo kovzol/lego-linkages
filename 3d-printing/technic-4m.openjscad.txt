@@ -1,0 +1,45 @@
+// LEGO Technic 4M
+// OpenJSCAD file
+// Written by Andreas Kiener, May 2019
+// Modified by Zoltán Kovács, June 2019
+
+function main () {
+    var innerd = 2.45; // diameter of inner holes (consider trying other values, e.g. 2.35 or 2.4
+    var outerd = 3; // diameter of outer holes (consider trying 2.95 as well)
+
+    return union(
+        difference(
+            union(
+              cylinder({r: 3.75, h:8}), // 1. cylinder
+              cylinder({r: 3.75, h:8}).translate([0,8,0]), // 2. cylinder
+              cylinder({r: 3.75, h:8}).translate([0,16,0]), // 3. cylinder
+              cylinder({r: 3.75, h:8}).translate([0,24,0]), // 4. cylinder
+
+              cube([7.5, 24, 5]).translate([-3.75, 0, 1.5]), // middle
+              cube([1.2, 24, 8]).translate([-3.75, 0, 0]), // forewall
+              cube([1.2, 24, 8]).translate([2.55, 0, 0]) // backwall
+
+            ),
+            union(
+                union(
+                cylinder({r: innerd, h:8}), // inner hole going through
+                cylinder({r: outerd, h:1}).translate([0,0,7]),
+                cylinder({r: outerd, h:2}).translate([0,0,-1]),
+
+                cylinder({r: innerd, h:8}).translate([0,8,0]), // inner hole going through
+                cylinder({r: outerd, h:1}).translate([0,8,7]),
+                cylinder({r: outerd, h:2}).translate([0,8,-1]),
+
+                cylinder({r: innerd, h:8}).translate([0,16,0]), // inner hole going through
+                cylinder({r: outerd, h:1}).translate([0,16,7]),
+                cylinder({r: outerd, h:2}).translate([0,16,-1]),
+
+                cylinder({r: innerd, h:8}).translate([0,24,0]), // inner hole going through
+                cylinder({r: outerd, h:1}).translate([0,24,7]),
+                cylinder({r: outerd, h:2}).translate([0,24,-1])
+
+                )
+            )
+        )
+    )
+}

@@ -27,16 +27,20 @@ Here a 4 units long beam is used (with 5 holes). The basic kit (explained in the
 on page 93 in the Shopping list slide) has to be extended by two blue long pins, one white 5 holes beam
 and one black 5 holes beam.
 
-(Alternatively a 3 units long beam with 4 holes could be printed with a 3D printer instead of the black 5 holes beam.)
+Alternatively a 3 units long beam with 4 holes could be printed with a 3D printer instead of the black 5 holes beam,
+see [Andreas Kiener](https://www.uni-salzburg.at/index.php?id=205610)'s [contribution](3d-printing/technic-4m.txt) as an
+[OpenJSCAD](https://openjscad.org/) [file](3d-printing/technic-4m.openjscad.txt).
+
+Instead of the 11-long beam two halves of 6-long beams may also be used.
 
 ### Hart's A-frame
 
 Another linear motion that requires an A2 pen refill. It is the same linkage that is shown in the author's
 presentation on page 88 and [was announced in his blog](https://kovz0l.blogspot.com/2018/08/harts-frame-revisited.html).
 There is one minor modification, however. There are two 1x1 parts used to get the linkage more fixed,
-according to [Andreas Kiener](https://www.uni-salzburg.at/index.php?id=205610)'s idea.
+according to Andreas' idea.
 
-![Hart's A-frame](html/Building%20Instructions%20%5BHart2b%5D-images/Step7.png)
+![Hart's A-frame](html/Building%20Instructions%20%5BHartA2b%5D-images/Step7.png)
 
 A big advantage of an earlier version of this linkage is that a much longer straight line can be drawn with it.
 However, usually a G2 pen refill is used in most linkages in this project. Another possibility is to use
