@@ -30,8 +30,8 @@ and one black 5 holes beam.
 Alternatively a 3 units long beam with 4 holes could be printed with a 3D printer instead of the black 5 holes beam,
 see [Andreas Kiener](https://www.uni-salzburg.at/index.php?id=205610)'s [contribution](3d-printing/technic-4m.txt) as an
 [OpenJSCAD](https://openjscad.org/) [file](3d-printing/technic-4m.openjscad.txt).
-
-Instead of the 11-long beam two halves of 6-long beams may also be used.
+In addition, instead of the 11-long beam two halves of 6-long beams may also be used (see a
+[photo](3d-printing/Peaucellier.jpg)).
 
 ### Hart's A-frame
 
@@ -45,3 +45,5 @@ according to Andreas' idea.
 A big advantage of an earlier version of this linkage is that a much longer straight line can be drawn with it.
 However, usually a G2 pen refill is used in most linkages in this project. Another possibility is to use
 the black 5 holes beam from the extended set (see Peaucellier's linkage above) instead of the two half 6 holes beam.
+
+Here are the [Building Instructions](http://htmlpreview.github.io/?https://github.com/kovzol/lego-linkages/blob/master/html/Building%20Instructions%20%5BHartA2b%5D.html).
