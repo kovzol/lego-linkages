@@ -29,3 +29,15 @@ and one black 5 holes beam.
 
 (Alternatively a 3 units long beam with 4 holes could be printed with a 3D printer instead of the black 5 holes beam.)
 
+### Hart's A-frame
+
+Another linear motion that requires an A2 pen refill. It is the same linkage that is shown in the author's
+presentation on page 88 and [was announced in his blog](https://kovz0l.blogspot.com/2018/08/harts-frame-revisited.html).
+There is one minor modification, however. There are two 1x1 parts used to get the linkage more fixed,
+according to [Andreas Kiener](https://www.uni-salzburg.at/index.php?id=205610)'s idea.
+
+![Hart's A-frame](html/Building%20Instructions%20%5BHart2b%5D-images/Step7.png)
+
+A big advantage of an earlier version of this linkage is that a much longer straight line can be drawn with it.
+However, usually a G2 pen refill is used in most linkages in this project. Another possibility is to use
+the black 5 holes beam from the extended set (see Peaucellier's linkage above) instead of the two half 6 holes beam.
