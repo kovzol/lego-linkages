@@ -28,8 +28,8 @@ on page 93 in the Shopping list slide) has to be extended by two blue long pins,
 and one black 5 holes beam.
 
 Alternatively a 3 units long beam with 4 holes could be printed with a 3D printer instead of the black 5 holes beam,
-see [Andreas Kiener](https://www.uni-salzburg.at/index.php?id=205610)'s [contribution](3d-printing/technic-4m.txt) as an
-[OpenJSCAD](https://openjscad.org/) [file](3d-printing/technic-4m.openjscad.txt).
+see [Andreas Kiener](https://www.uni-salzburg.at/index.php?id=205610)'s [contribution](3d-printing/technic-4m.openjscad.txt) as an
+[OpenJSCAD](https://openjscad.org/) file.
 In addition, instead of the 11-long beam two halves of 6-long beams may also be used (see a
 [photo](3d-printing/Peaucellier.jpg)).
 
