@@ -11,5 +11,5 @@ on further details on the topic.
 
 ## The linkages
 Peaucellier's linkage provides a linear motion when putting a pen refill in the top-right position.
-!(html/Building Instructions [Peaucellier]-images/Step8.png)
-See also [Building Instructions](html/Building Instructions [Peaucellier].html).
+!(html/Building%20Instructions%20[Peaucellier]-images/Step8.png)
+See also [Building%20Instructions](html/Building%20Instructions%20[Peaucellier].html).
