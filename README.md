@@ -1,5 +1,5 @@
 # Introduction
-This is  collection of simple LEGO linkages that can follow a prescribed motion
+This is a collection of simple LEGO linkages that can follow a prescribed motion
 created with the [LEGO Digital Designer (LDD)](https://www.lego.com/en-us/ldd) 4.3,
 a free application for Windows and Mac. (Linux users may want to use [CrossOver](https://www.codeweavers.com/products/crossover-linux)
 to run LDD with emulation.)
@@ -47,3 +47,4 @@ However, usually a G2 pen refill is used in most linkages in this project. Anoth
 the black 5 holes beam from the extended set (see Peaucellier's linkage above) instead of the two half 6 holes beam.
 
 Here are the [Building Instructions](http://htmlpreview.github.io/?https://github.com/kovzol/lego-linkages/blob/master/html/Building%20Instructions%20%5BHartA2b%5D.html).
+
