@@ -11,5 +11,5 @@ on further details on the topic.
 
 ## The linkages
 Peaucellier's linkage provides a linear motion when putting a pen refill in the top-right position.
-!(html/Building%20Instructions%20[Peaucellier]-images/Step8.png)
-See also [Building%20Instructions](html/Building%20Instructions%20[Peaucellier].html).
+!(html/Building%20Instructions%20%5BPeaucellier%5D-images/Step8.png)
+See also [Building Instructions](http://htmlpreview.github.io/?https://github.com/kovzol/lego-linkages/blob/master/html/Building%20Instructions%20%5BPeaucellier%5D.html).
