@@ -2,7 +2,8 @@
 This is a collection of simple LEGO linkages that can follow a prescribed motion
 created with the [LEGO Digital Designer (LDD)](https://www.lego.com/en-us/ldd) 4.3,
 a free application for Windows and Mac. (Linux users may want to use [CrossOver](https://www.codeweavers.com/products/crossover-linux)
-to run LDD with emulation.)
+to run LDD with emulation.) After installing LDD, in case you have problems with the Hinge tools,
+consider checking [this page](https://steamcommunity.com/sharedfiles/filedetails/?id=455735233).
 
 The linkages are built from a minimal set of LEGO parts. The focus is that all
 linkages can be built quickly and their movement can be traced on a piece of
