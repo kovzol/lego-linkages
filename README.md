@@ -5,14 +5,16 @@ a free application for Windows and Mac. (Linux users may want to use [CrossOver]
 to run LDD with emulation.) After installing LDD, in case you have problems with the Hinge tools,
 consider checking [this page](https://steamcommunity.com/sharedfiles/filedetails/?id=455735233).
 
-The linkages are built from a minimal set of LEGO parts. The focus is that all
-linkages can be built quickly and their movement can be traced on a piece of
-paper. See author's presentation with title [Teaching algebra and geometry with LEGO and linkages](https://www.researchgate.net/publication/332303931_Teaching_algebra_and_geometry_with_LEGO_and_linkages)
+The linkages are built from a minimal set of LEGO parts. The focus is on the requirement that all
+linkages could be built quickly and their movement could be traced on a piece of
+paper. See *author's presentation* with title [Teaching algebra and geometry with LEGO and linkages](https://www.researchgate.net/publication/332303931_Teaching_algebra_and_geometry_with_LEGO_and_linkages)
 on further details on the topic.
 
 ## The linkages
 
 ### Peaucellier's linkage
+
+#### First approach
 
 Peaucellier's linkage provides a linear motion when putting a pen refill in the top-right position.
 
@@ -24,7 +26,7 @@ to get exactly the same motion: *l<sub>1</sub>* has to be set to 8 and *l<sub>2<
 by showing the output labelled with *a* we learn that radius of the circle needs to be 3 units.
 
 Unfortunately there exists no LEGO beam with 3 units (that is, with 4 holes), so we need to use a bigger one.
-Here a 4 units long beam is used (with 5 holes). The basic kit (explained in the author's presentation
+Here a 4 units long beam is used (with 5 holes). The standard kit (explained in the author's presentation
 on page 93 in the Shopping list slide) has to be extended by two blue long pins, one white 5 holes beam
 and one black 5 holes beam.
 
@@ -33,6 +35,18 @@ see [Andreas Kiener](https://www.uni-salzburg.at/index.php?id=205610)'s [contrib
 [OpenJSCAD](https://openjscad.org/) file.
 In addition, instead of the 11-long beam two halves of 6-long beams may also be used (see a
 [photo](3d-printing/Peaucellier.jpg)).
+
+
+#### Second approach
+
+If we omit the requirement that the ball pen point needs to intersect the line of the red beam in the same
+distance as the two long beams are, then we can build a Peaucellier-type linkage with the standard set as well.
+In this case we need only an extra long pin that is a minimal extra cost and no 3D printing is required.
+Another benefit is that the drawn line is quite long (about 12 cm).
+
+![Peaucellier's linkage, second approach](html/Building%20Instructions%20%5BPeaucellier2%5D-images/Step4.png)
+
+See also [Building Instructions](http://htmlpreview.github.io/?https://github.com/kovzol/lego-linkages/blob/master/html/Building%20Instructions%20%5BPeaucellier2%5D.html).
 
 ### Hart's A-frame
 
@@ -49,3 +63,14 @@ the black 5 holes beam from the extended set (see Peaucellier's linkage above) i
 
 Here are the [Building Instructions](http://htmlpreview.github.io/?https://github.com/kovzol/lego-linkages/blob/master/html/Building%20Instructions%20%5BHartA2b%5D.html).
 
+## Suggested LEGO set to use
+
+Author's presentation suggests the *standard set* (version 2 in the table below). To build the second approach of the Peaucellier cell, one
+also needs to have another long pin. Two 1x1 parts can be very useful to minimize vertical movement of the linkage,
+that is, to take up the slack. Here is an up-to-date list of the parts of the suggested LEGO set:
+
+| Version | Date     | Beam 15 red 32278 | Beam 11 gray 32525 | Beam 9 yellow 40490 | Half beam 6 gray 32063 | Beam 5 white 32316 | Beam 3 gray 32523 | Beam 1x1 gray 18654 | Long pin blue 6558 | Pin black 2780 | G2 refill | A2 refill | 
+|:-------:|:--------:|:-----------------:|:------------------:|:-------------------:|:----------------------:|:------------------:|:-----------------:|:-------------------:|:------------------:|:--------------:|:---------:|:---------:|
+| 1       | Dec 2017 |         1         |         2          |         2           |           4            |         3          |         1         |          -          |         2          |     9     |     1     |     -     |
+| 2       | Feb 2019 |         1         |         2          |         2           |           4            |         3          |         1         |          -          |          2          |     9     |     1     |     1     |
+| 3       | Jun 2019 |         1         |         2          |         2           |           4            |         3          |         1         |          2          |         3          |     9     |     1     |     1     |
