@@ -18,8 +18,8 @@ a much wider set of colors for each part.
 
 In all models there is a long red
 beam with 15 holes (actually its practicable size is just 14 units) which will be
-used to firmly hold the model with the one hand (for right-handed pupils this
-is the left hand), and a pen refill which will be inserted in a certain connection
+used to firmly hold the model with the one hand (for right-handed persons this
+is the left hand), and a G2 type pen refill which will be inserted in a certain connection
 peg, and hold and moved with the other hand, on a sheet of paper. This sheet of
 paper will be pressed down by the whole construction, practically by the force
 of the one hand.
@@ -51,9 +51,18 @@ Chebyshev's linkage seems to produce a circular arc.
 
 [Building Instructions](http://htmlpreview.github.io/?https://github.com/kovzol/lego-linkages/blob/master/html/Building%20Instructions%20%5BChebyshev%5D.html).
 
-When crossing its grey bars, it seems to produce a linear motion.
+When its grey bars are crossed, the linkage seems to produce a linear motion.
 
 ![Chebyshev's linkage, crossed bars](html/Building%20Instructions%20%5BChebyshev-crossed%5D-images/Step6.png)
+
+#### Second approach
+
+Chebyshev's lambda linkage is equivalent to the previous one, but it can create its path
+in one movement as well.
+
+![Chebyshev's lambda linkage](html/Building%20Instructions%20%5Blambda%5D-images/Step3.png)
+
+[Building Instructions](http://htmlpreview.github.io/?https://github.com/kovzol/lego-linkages/blob/master/html/Building%20Instructions%20%5Blambda%5D.html).
 
 ### Peaucellier's linkage
 
@@ -79,10 +88,9 @@ see [Andreas Kiener](https://www.uni-salzburg.at/index.php?id=205610)'s [contrib
 In addition, instead of the 11-long beam two halves of 6-long beams may also be used (see a
 [photo](3d-printing/Peaucellier.jpg)).
 
-
 #### Second approach
 
-If we omit the requirement that the ball pen point needs to intersect the line of the red beam in the same
+If we omit a possible requirement that the ball pen point needs to intersect the line of the red beam in the same
 distance as the two long beams are, then we can build a Peaucellier-type linkage with the standard set as well.
 In this case we need only an extra long pin that is a minimal extra cost and no 3D printing is required.
 Another benefit is that the drawn line is quite long (about 12 cm).
@@ -106,6 +114,14 @@ the black 5 holes beam from the extended set (see Peaucellier's linkage above) i
 
 Here are the [Building Instructions](http://htmlpreview.github.io/?https://github.com/kovzol/lego-linkages/blob/master/html/Building%20Instructions%20%5BHartA2b%5D.html).
 
+### Hart's inversor
+
+Another element of the kit that produces a linear motion (again, with a G2 pen refill).
+
+![Hart's inversor](html/Building%20Instructions%20%5BHartI%5D-images/Step4.png)
+
+[Building Instructions](http://htmlpreview.github.io/?https://github.com/kovzol/lego-linkages/blob/master/html/Building%20Instructions%20%5BHartI%5D.html).
+
 ## Suggested LEGO set to use
 
 Author's presentation suggests the *standard set* (version 2 in the table below). To build the second approach of the Peaucellier cell, one
@@ -124,6 +140,7 @@ that is, to take up the slack. Here is an up-to-date list of the parts of the su
 * Benedek Kovács (for constructing some of the linkages in LDD)
 * Alex Mittermayr (for several ideas on the method how the linkages should be built)
 * Andreas Kiener (for minor improvement ideas)
+* Chris Sangwin (for several mathematical ideas and concepts from his book [How round is your circle?](https://press.princeton.edu/titles/8624.html))
 
 Many thanks for additional support to:
 * Georg Grasegger
