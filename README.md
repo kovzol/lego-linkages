@@ -10,7 +10,49 @@ linkages could be built quickly and their movement could be traced on a piece of
 paper. See *author's presentation* with title [Teaching algebra and geometry with LEGO and linkages](https://www.researchgate.net/publication/332303931_Teaching_algebra_and_geometry_with_LEGO_and_linkages)
 on further details on the topic.
 
+In LDD one will want to set *View* > *New themes* > *LDD Extended* to make it possible to use
+a much wider set of colors for each part.
+
 ## The linkages
+
+In all models there is a long red
+beam with 15 holes (actually its practicable size is just 14 units) which will be
+used to firmly hold the model with the one hand (for right-handed pupils this
+is the left hand), and a pen refill which will be inserted in a certain connection
+peg, and hold and moved with the other hand, on a sheet of paper. This sheet of
+paper will be pressed down by the whole construction, practically by the force
+of the one hand.
+
+### Compass
+
+The simplest linkage is a compass. It produces a regular circular curve.
+
+![compass](html/Building%20Instructions%20%5Bcompass%5D-images/Step1.png)
+
+[Building Instructions](http://htmlpreview.github.io/?https://github.com/kovzol/lego-linkages/blob/master/html/Building%20Instructions%20%5Bcompass%5D.html).
+
+### Watt's linkage
+
+It is somewhat more difficult... a straight motion to produce. Watt's linkage is an attempt to do that,
+with an almost success.
+
+![Watt's linkage](html/Building%20Instructions%20%5BWatt%5D-images/Step6.png)
+
+[Building Instructions](http://htmlpreview.github.io/?https://github.com/kovzol/lego-linkages/blob/master/html/Building%20Instructions%20%5BWatt%5D.html).
+
+### Chebyshev's linkage
+
+#### First approach
+
+Chebyshev's linkage seems to produce a circular arc.
+
+![Chebyshev's linkage](html/Building%20Instructions%20%5BChebyshev%5D-images/Step6.png)
+
+[Building Instructions](http://htmlpreview.github.io/?https://github.com/kovzol/lego-linkages/blob/master/html/Building%20Instructions%20%5BChebyshev%5D.html).
+
+When crossing its grey bars, it seems to produce a linear motion.
+
+![Chebyshev's linkage, crossed bars](html/Building%20Instructions%20%5BChebyshev-crossed%5D-images/Step6.png)
 
 ### Peaucellier's linkage
 
