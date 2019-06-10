@@ -1,4 +1,5 @@
 # Introduction
+
 This is a collection of simple LEGO linkages that can follow a prescribed motion
 created with the [LEGO Digital Designer (LDD)](https://www.lego.com/en-us/ldd) 4.3,
 a free application for Windows and Mac. (Linux users may want to use [CrossOver](https://www.codeweavers.com/products/crossover-linux)
@@ -116,3 +117,16 @@ that is, to take up the slack. Here is an up-to-date list of the parts of the su
 | 1       | Dec 2017 |         1         |         2          |         2           |           4            |         3          |         1         |          -          |         2          |     9     |     1     |     -     |
 | 2       | Feb 2019 |         1         |         2          |         2           |           4            |         3          |         1         |          -          |          2          |     9     |     1     |     1     |
 | 3       | Jun 2019 |         1         |         2          |         2           |           4            |         3          |         1         |          2          |         3          |     9     |     1     |     1     |
+
+# Acknowledgements
+
+* Tomás Recio (for the idea)
+* Benedek Kovács (for constructing some of the linkages in LDD)
+* Alex Mittermayr (for several ideas on the method how the linkages should be built)
+* Andreas Kiener (for minor improvement ideas)
+
+Many thanks for additional support to:
+* Georg Grasegger
+* Markus Hohenwarter
+* Barbara Lichtenegger
+* M. Pilar Vélez
