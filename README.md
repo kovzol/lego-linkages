@@ -41,7 +41,38 @@ with an almost success.
 
 [Building Instructions](http://htmlpreview.github.io/?https://github.com/kovzol/lego-linkages/blob/master/html/Building%20Instructions%20%5BWatt%5D.html).
 
+### Parallelograms
+
+Parallelograms can give a better understanding on the algebraic properties of the movements. Use the A2 refill to draw with them.
+
+#### 8-5
+
+A circle and a lemniscate will be produced, the latter occurs when the parallelogram turns into an anti-parallelogram.
+
+![Parallelogram-8-5](html/Building%20Instructions%20%5BParallelogram-8-5%5D-images/Step7.png)
+
+[Building Instructions](http://htmlpreview.github.io/?https://github.com/kovzol/lego-linkages/blob/master/html/Building%20Instructions%20%5BParallelogram-8-5%5D.html).
+
+#### 4-8
+
+A circle and an almost-circle (a Cassini-oval) will be produced, the latter occurs when the parallelogram turns into an anti-parallelogram.
+
+![Parallelogram-4-8](html/Building%20Instructions%20%5BParallelogram-4-8%5D-images/Step6.png)
+
+[Building Instructions](http://htmlpreview.github.io/?https://github.com/kovzol/lego-linkages/blob/master/html/Building%20Instructions%20%5BParallelogram-4-8%5D.html).
+This linkage will automatically turn into an anti-parallelogram when the pen refill reaches a critical point.
+
+#### Rhombus
+
+Three circles will be produced. This linkage is actually just a sketch, so the pen refill cannot be used to draw anything.
+
+![Rhombus](html/Building%20Instructions%20%5BRhombus%5D-images/Step3.png)
+
+[Building Instructions](http://htmlpreview.github.io/?https://github.com/kovzol/lego-linkages/blob/master/html/Building%20Instructions%20%5BRhombus%5D.html).
+
 ### Chebyshev's linkage
+
+This is a kind of generalization of the parallelograms (similarly to Watt's linkage). Use a G2 refill.
 
 #### First approach
 
