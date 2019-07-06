@@ -19,10 +19,15 @@ a much wider set of colors for each part.
 In all models there is a long red
 beam with 15 holes (actually its practicable size is just 14 units) which will be
 used to firmly hold the model with the one hand (for right-handed persons this
-is the left hand), and a G2 type pen refill which will be inserted in a certain connection
+is the left hand), and a G2 type pen refill which will be inserted in a certain connector
 peg, and hold and moved with the other hand, on a sheet of paper. This sheet of
 paper will be pressed down by the whole construction, practically by the force
 of the one hand.
+
+In some linkages an A2 type refill should be used. It ensures a longer distance between
+the sheet of paper and the beam than the G2 type, but assembling the linkage should be performed more carefully.
+It may be useful to insert the refill first in the connector peg as deeply as possible,
+and only then put the peg in the beam downside-up.
 
 ### Compass
 
