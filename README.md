@@ -1,7 +1,7 @@
 # Introduction
 
-This is a collection of simple LEGO linkages that can follow a prescribed motion
-created with the [LEGO Digital Designer (LDD)](https://www.lego.com/en-us/ldd) 4.3,
+This is a collection of simple LEGO linkages that can follow a prescribed motion.
+The drawings and assembly instructions are created with the [LEGO Digital Designer (LDD)](https://www.lego.com/en-us/ldd) 4.3,
 a free application for Windows and Mac. (Linux users may want to use [CrossOver](https://www.codeweavers.com/products/crossover-linux)
 to run LDD with emulation.) After installing LDD, in case you have problems with the Hinge tools,
 consider checking [this page](https://steamcommunity.com/sharedfiles/filedetails/?id=455735233).
@@ -20,7 +20,7 @@ In all models there is a long red
 beam with 15 holes (actually its practicable size is just 14 units) which will be
 used to firmly hold the model with the one hand (for right-handed persons this
 is the left hand), and a G2 type pen refill which will be inserted in a certain connector
-peg, and hold and moved with the other hand, on a sheet of paper. This sheet of
+peg, and held and moved with the other hand, on a sheet of paper. This sheet of
 paper will be pressed down by the whole construction, practically by the force
 of the one hand.
 
