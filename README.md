@@ -29,6 +29,10 @@ the sheet of paper and the beam than the G2 type, but assembling the linkage sho
 It may be useful to insert the refill first in the connector peg as deeply as possible,
 and only then put the peg in the beam downside-up.
 
+Some linkages contain one or more 1x1 beams that was recently introduced by LEGO
+and may be missing from most basic sets. These parts are not absolutely required, but using
+them makes the linkage more stable.
+
 ### Compass
 
 The simplest linkage is a compass. It produces a regular circular curve.
