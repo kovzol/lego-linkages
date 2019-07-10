@@ -1,0 +1,30 @@
+#!/bin/bash
+if [ "$1" = "" ]; then
+ exit 1
+ fi
+rm -fr "Building Instructions [$1]-images"
+
+HTMLFILE="../html/Building Instructions [$1].html"
+XHTML="-N xhtml=http://www.w3.org/1999/xhtml"
+cat "$HTMLFILE" |\
+ tidy -q -numeric -asxhtml --show-warnings no |\
+ xmlstarlet ed $XHTML -d "//xhtml:title" |\
+ xmlstarlet ed $XHTML -d "//xhtml:div[@class=\"footer\"]" |\
+ xmlstarlet ed $XHTML -d "//xhtml:div[@class=\"header\"]" |\
+ xmlstarlet ed $XHTML -d "//xhtml:div[@class=\"headerPrint\"]" |\
+ xmlstarlet ed $XHTML -d "//xhtml:div[@class=\"nav\"]" |\
+ xmlstarlet ed $XHTML -d "//xhtml:div[@class=\"stepdisplay\"]" |\
+ xmlstarlet ed $XHTML -d "//xhtml:div[@style=\"clear:both\"]" |\
+ xmlstarlet ed $XHTML -d "//xhtml:script" |\
+ grep -v "display:none;" |\
+ grep -v "page-break-after:always;" |\
+ sed '/<img /i <br>' |\
+ sed '/<div class="step" id="step_1">/i <hr>' \
+> "$1.html"
+
+cp -a "../html/Building Instructions [$1]-images" "Building Instructions [$1]-images"
+rm -fr "Building Instructions [$1]-images/Images"
+
+cd "Building Instructions [$1]-images"
+
+# for i in Step*.png; do mogrify -trim $i; done
