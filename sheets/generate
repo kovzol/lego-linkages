@@ -14,12 +14,16 @@ cat "$HTMLFILE" |\
  xmlstarlet ed $XHTML -d "//xhtml:div[@class=\"headerPrint\"]" |\
  xmlstarlet ed $XHTML -d "//xhtml:div[@class=\"nav\"]" |\
  xmlstarlet ed $XHTML -d "//xhtml:div[@class=\"stepdisplay\"]" |\
- xmlstarlet ed $XHTML -d "//xhtml:div[@style=\"clear:both\"]" |\
+ xmlstarlet ed $XHTML -d "//xhtml:div[@id=\"step_elements\"]" |\
+ xmlstarlet ed $XHTML -d "//xhtml:div[@id=\"step_0\"]" |\
  xmlstarlet ed $XHTML -d "//xhtml:script" |\
  grep -v "display:none;" |\
  grep -v "page-break-after:always;" |\
+ sed 's/onload="biStep(0)"//' |\
  sed '/<img /i <br>' |\
- sed '/<div class="step" id="step_1">/i <hr>' \
+ sed 's/height="600" width="800"/height="50%" width="50%"/' |\
+ sed 's/height:620px//' |\
+ sed '/<div class="step" id="step_1">/i <h1>'$1'</h1>' \
 > "$1.html"
 
 cp -a "../html/Building Instructions [$1]-images" "Building Instructions [$1]-images"
@@ -27,4 +31,6 @@ rm -fr "Building Instructions [$1]-images/Images"
 
 cd "Building Instructions [$1]-images"
 
-# for i in Step*.png; do mogrify -trim $i; done
+for i in Step*.png; do mogrify -trim $i; done
+
+# xmlstarlet ed $XHTML -d "//xhtml:style[@media=\"print\"]" |\
