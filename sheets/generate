@@ -1,4 +1,15 @@
 #!/bin/bash
+
+which xmlstarlet >/dev/null || {
+ echo "Please install XMLstarlet first."
+ exit 2
+ }
+
+which mogrify >/dev/null || {
+ echo "Please install ImageMagick first."
+ exit 2
+ }
+
 if [ "$1" = "" ]; then
  exit 1
  fi
@@ -21,7 +32,7 @@ cat "$HTMLFILE" |\
  grep -v "page-break-after:always;" |\
  sed 's/onload="biStep(0)"//' |\
  sed '/<img /i <br>' |\
- sed 's/height="600" width="800"/height="50%" width="50%"/' |\
+ sed 's/height="600" width="800"/height="60%" width="60%"/' |\
  sed 's/height:620px//' |\
  sed '/<div class="step" id="step_1">/i <h1>'$1'</h1>' \
 > "$1.html"
@@ -31,6 +42,7 @@ rm -fr "Building Instructions [$1]-images/Images"
 
 cd "Building Instructions [$1]-images"
 
-for i in Step*.png; do mogrify -trim $i; done
+for i in Step*.png; do mogrify -trim -fill white -background white -splice 10x20 -colorize 15% $i; done
+for i in Brick*.png; do mogrify -fill white -colorize 20% $i; done
 
 # xmlstarlet ed $XHTML -d "//xhtml:style[@media=\"print\"]" |\
