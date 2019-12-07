@@ -28,6 +28,8 @@ In some linkages an A2 type refill should be used. It ensures a longer distance 
 the sheet of paper and the beam than the G2 type, but assembling the linkage should be performed more carefully.
 For the [Parallelograms](#parallelograms) it may be useful to insert the refill first in the connector peg as deeply as possible,
 and only then put the peg in the beam downside-up. For the other ones an upside-down insertion should work.
+Note that A2 type refills can provide a certain backlash in their vertical motion. Make sure you get familiar with their use
+before presenting a linkage that is based on A2. Otherwise the drawings could be quite inaccurate.
 
 Some linkages contain one or more 1x1 beams that was recently introduced by LEGO
 and may be missing from most basic sets. These parts are not absolutely required, but using
@@ -133,11 +135,18 @@ In addition, instead of the 11-long beam two halves of 6-long beams may also be 
 If we omit a possible requirement that the ball pen point needs to intersect the line of the red beam in the same
 distance as the two long beams are, then we can build a Peaucellier-type linkage with the standard set as well.
 In this case we need only an extra long pin that is a minimal extra cost and no 3D printing is required.
-Another benefit is that the drawn line is quite long (about 12 cm).
+Another benefit is that the drawn line is quite long (about 12 cm). This linkage requires an A2 type refill.
 
 ![Peaucellier's linkage, second approach](html/Building%20Instructions%20%5BPeaucellier2%5D-images/Step4.png)
 
 See also [Building Instructions](http://htmlpreview.github.io/?https://github.com/kovzol/lego-linkages/blob/master/html/Building%20Instructions%20%5BPeaucellier2%5D.html).
+
+#### Incomplete linkage as a puzzle
+
+Students may want to solve a puzzle by completing Peaucellier's cell to complete it to the linkage that
+produces a straight line. This construction is same as the previous but we just omitted the white constraint.
+
+See the [Building Instructions](http://htmlpreview.github.io/?https://github.com/kovzol/lego-linkages/blob/master/html/Building%20Instructions%20%5BP-cell%5D.html).
 
 ### Hart's A-frame
 
@@ -173,6 +182,21 @@ that is, to take up the slack. Here is an up-to-date list of the parts of the su
 | 1       | Dec 2017 |         1         |         2          |         2           |           4            |         3          |         1         |          -          |         2          |     9     |     1     |     -     |
 | 2       | Feb 2019 |         1         |         2          |         2           |           4            |         3          |         1         |          -          |          2          |     9     |     1     |     1     |
 | 3       | Jun 2019 |         1         |         2          |         2           |           4            |         3          |         1         |          2          |         3          |     9     |     1     |     1     |
+
+## Used pen refills in the linkages
+| Linkage | G2 | A2 |
+|:-------:|:--:|:--:|
+| compass | x  |    |
+| Watt    | x  |    |
+| Parallelogram-8-5 |    | x  |
+| Parallelogram-4-8 |    | x  |
+| Chebyshev | x  |    |
+| lambda    | x  |    |
+| Peaucellier | x  |    |
+| Peaucellier2 |    | x  |
+| P-cell |    | x  |
+| HartA2b |    | x  |
+| HartI | x  |    |
 
 # Acknowledgements
 

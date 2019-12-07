@@ -1,4 +1,4 @@
 #!/bin/sh
-for i in Chebyshev HartA2b compass lambda Watt Peaucellier2 Rhombus HartI Parallelogram-8-5 Parallelogram-4-8; do
+for i in Chebyshev HartA2b compass lambda Watt Peaucellier2 P-cell Rhombus HartI Parallelogram-8-5 Parallelogram-4-8; do
  ./generate $i || exit $?
  done
