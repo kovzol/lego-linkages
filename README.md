@@ -9,7 +9,8 @@ consider checking [this page](https://steamcommunity.com/sharedfiles/filedetails
 The linkages are built from a minimal set of LEGO parts. The focus is on the requirement that all
 linkages could be built quickly and their movement could be traced on a piece of
 paper. See *author's presentation* with title [Teaching algebra and geometry with LEGO and linkages](https://www.researchgate.net/publication/332303931_Teaching_algebra_and_geometry_with_LEGO_and_linkages)
-on further details on the topic.
+on further details on the topic. Also, an [arXiv paper](https://arxiv.org/abs/1909.04964) is available on using these
+linkages in a maths camp.
 
 In LDD one will want to set *View* > *New themes* > *LDD Extended* to make it possible to use
 a much wider set of colors for each part.
@@ -26,10 +27,19 @@ of the one hand.
 
 In some linkages an A2 type refill should be used. It ensures a longer distance between
 the sheet of paper and the beam than the G2 type, but assembling the linkage should be performed more carefully.
-For the [Parallelograms](#parallelograms) it may be useful to insert the refill first in the connector peg as deeply as possible,
-and only then put the peg in the beam downside-up. For the other ones an upside-down insertion should work.
+In such cases it may be useful to insert the refill first in the connector peg as deeply as possible,
+and only then put the peg in the beam. This has to be done in some cases downside-up, in particular
+in the [Parallelograms](#parallelograms). For the other ones an upside-down insertion should work.
 Note that A2 type refills can provide a certain backlash in their vertical motion. Make sure you get familiar with their use
 before presenting a linkage that is based on A2. Otherwise the drawings could be quite inaccurate.
+
+Before buying the refills you need to note that some G2 type refills are longer than expected and do not ensure an accurate motion.
+Some A3 type refills are sometimes sold as A2 type, so be careful when ordering a higher amount of
+refills. A3 type refills can also be used but they require more careful calibration of their
+vertical position, so A2 refills are always preferred. In a doubt you can try the following products:
+
+* G2: [Kugelschreiberminen Kyome](https://www.plate.de/p/kugelschreiberminen-kyome_45244.html)
+* A2: [New Schneider 575 / 75 Office Black Ballpoint Pen Metal Slim Refill ISO 12757-2)](https://www.myuberpens.com/new-schneider-575-75-office-black-ballpoint-pen-metal-slim-refill-iso-12757-2-a2-made-in-germany-fits-most-vintage-pens.html)
 
 Some linkages contain one or more 1x1 beams that was recently introduced by LEGO
 and may be missing from most basic sets. These parts are not absolutely required, but using
@@ -141,7 +151,7 @@ Another benefit is that the drawn line is quite long (about 12 cm). This linkage
 
 See also [Building Instructions](http://htmlpreview.github.io/?https://github.com/kovzol/lego-linkages/blob/master/html/Building%20Instructions%20%5BPeaucellier2%5D.html).
 
-#### Incomplete linkage as a puzzle
+### Incomplete linkage as a puzzle
 
 Students may want to solve a puzzle by completing Peaucellier's cell to complete it to the linkage that
 produces a straight line. This construction is same as the previous but we just omitted the white constraint.
@@ -158,7 +168,7 @@ according to Andreas' idea.
 ![Hart's A-frame](html/Building%20Instructions%20%5BHartA2b%5D-images/Step7.png)
 
 A big advantage of an earlier version of this linkage is that a much longer straight line can be drawn with it.
-However, usually a G2 pen refill is used in most linkages in this project. Another possibility is to use
+Another possibility is to use
 the black 5 holes beam from the extended set (see Peaucellier's linkage above) instead of the two half 6 holes beam.
 
 Here are the [Building Instructions](http://htmlpreview.github.io/?https://github.com/kovzol/lego-linkages/blob/master/html/Building%20Instructions%20%5BHartA2b%5D.html).
@@ -177,7 +187,7 @@ Author's presentation suggests the *standard set* (version 2 in the table below)
 also needs to have another long pin. Two 1x1 parts can be very useful to minimize vertical movement of the linkage,
 that is, to take up the slack. Here is an up-to-date list of the parts of the suggested LEGO set:
 
-| Version | Date     | Beam 15 red 32278 | Beam 11 gray 32525 | Beam 9 yellow 40490 | Half beam 6 gray 32063 | Beam 5 white 32316 | Beam 3 gray 32523 | Beam 1x1 gray 18654 | Long pin blue 6558 | Pin black 2780 | G2 refill | A2 refill | 
+| Ver&shy;sion | Date     | Beam 15 red 32278 | Beam 11 gray 32525 | Beam 9 yellow 40490 | Half beam 6 gray 32063 | Beam 5 white 32316 | Beam 3 gray 32523 | Beam 1x1 gray 18654 | Long pin blue 6558 | Pin black 2780 | G2 refill | A2 refill | 
 |:-------:|:--------:|:-----------------:|:------------------:|:-------------------:|:----------------------:|:------------------:|:-----------------:|:-------------------:|:------------------:|:--------------:|:---------:|:---------:|
 | 1       | Dec 2017 |         1         |         2          |         2           |           4            |         3          |         1         |          -          |         2          |     9     |     1     |     -     |
 | 2       | Feb 2019 |         1         |         2          |         2           |           4            |         3          |         1         |          -          |          2          |     9     |     1     |     1     |
@@ -211,3 +221,4 @@ Many thanks for additional support to:
 * Markus Hohenwarter
 * Barbara Lichtenegger
 * M. Pilar Vélez
+* Susanne Thrainer
