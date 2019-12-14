@@ -39,7 +39,7 @@ refills. A3 type refills can also be used but they require more careful calibrat
 vertical position, so A2 refills are always preferred. In a doubt you can try the following products:
 
 * G2: [Kugelschreiberminen Kyome](https://www.plate.de/p/kugelschreiberminen-kyome_45244.html)
-* A2: [New Schneider 575 / 75 Office Black Ballpoint Pen Metal Slim Refill ISO 12757-2)](https://www.myuberpens.com/new-schneider-575-75-office-black-ballpoint-pen-metal-slim-refill-iso-12757-2-a2-made-in-germany-fits-most-vintage-pens.html)
+* A2: [Schneider Office 575M ISO 12757-2](https://www.myuberpens.com/new-schneider-575-75-office-black-ballpoint-pen-metal-slim-refill-iso-12757-2-a2-made-in-germany-fits-most-vintage-pens.html)
 
 Some linkages contain one or more 1x1 beams that was recently introduced by LEGO
 and may be missing from most basic sets. These parts are not absolutely required, but using
