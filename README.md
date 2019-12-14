@@ -187,7 +187,7 @@ Author's presentation suggests the *standard set* (version 2 in the table below)
 also needs to have another long pin. Two 1x1 parts can be very useful to minimize vertical movement of the linkage,
 that is, to take up the slack. Here is an up-to-date list of the parts of the suggested LEGO set:
 
-| Ver&shy;sion | Date     | Beam 15 red 32278 | Beam 11 gray 32525 | Beam 9 yellow 40490 | Half beam 6 gray 32063 | Beam 5 white 32316 | Beam 3 gray 32523 | Beam 1x1 gray 18654 | Long pin blue 6558 | Pin black 2780 | G2 refill | A2 refill | 
+| Ver&shy;sion | Date     | Beam 15 red 32278 | Beam 11 gray 32525 | Beam 9 yel&shy;low 40490 | Half beam 6 gray 32063 | Beam 5 white 32316 | Beam 3 gray 32523 | Beam 1x1 gray 18654 | Long pin blue 6558 | Pin black 2780 | G2 re&shy;fill | A2 re&shy;fill | 
 |:-------:|:--------:|:-----------------:|:------------------:|:-------------------:|:----------------------:|:------------------:|:-----------------:|:-------------------:|:------------------:|:--------------:|:---------:|:---------:|
 | 1       | Dec 2017 |         1         |         2          |         2           |           4            |         3          |         1         |          -          |         2          |     9     |     1     |     -     |
 | 2       | Feb 2019 |         1         |         2          |         2           |           4            |         3          |         1         |          -          |          2          |     9     |     1     |     1     |
